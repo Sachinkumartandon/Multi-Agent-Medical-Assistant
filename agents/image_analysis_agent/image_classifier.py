@@ -13,7 +13,7 @@ class ClassificationDecision(TypedDict):
     reasoning: str
     confidence: float
 
-class ImageAnalyzer:
+class ImageClassifier:
     """Uses GPT-4o Vision to analyze images and determine their type."""
     
     def __init__(self):
